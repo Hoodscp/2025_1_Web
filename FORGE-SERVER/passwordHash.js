@@ -1,6 +1,7 @@
 const bcrypt = require('bcrypt')
 const saltRounds = 10
-const myPassword = 'hkjshkjdhfksdj'
+const myPassword = '
+'
 const myPassword1 = 'hkjshkjdhfksdj1'
 let dbHash // 1. 사용자 등록
 bcrypt.hash(myPassword, saltRounds, function (err, hash) {
